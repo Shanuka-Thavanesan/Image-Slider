@@ -9,12 +9,17 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #121214;
+    background: #640b7a;
   }
+
+ 
   
   .container {
     max-width: 1200px;
     width: 95%;
+    background-color: #9a58aa;
+    border-radius: 5px;
+    
   }
   
   .slider-wrapper {
@@ -25,7 +30,7 @@
     position: absolute;
     top: 50%;
     outline: none;
-    border: none;
+    border-radius: 5px;
     height: 50px;
     width: 50px;
     z-index: 5;
@@ -33,7 +38,7 @@
     display: flex;
     cursor: pointer;
     font-size: 2.2rem;
-    background: #000;
+    background: #7b0499;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -41,7 +46,7 @@
   }
   
   .slider-wrapper .slide-button:hover {
-    background: #404040;
+    background: #3d063f;
   }
   
   .slider-wrapper .slide-button#prev-slide {
@@ -82,7 +87,7 @@
   }
   
   .slider-scrollbar .scrollbar-track {
-    background: #ccc;
+    background: #3a084e;
     width: 100%;
     height: 2px;
     display: flex;
@@ -97,7 +102,7 @@
   
   .slider-scrollbar .scrollbar-thumb {
     position: absolute;
-    background: #000;
+    background: #db69e6;
     top: 0;
     bottom: 0;
     width: 50%;
